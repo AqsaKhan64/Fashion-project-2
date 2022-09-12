@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main-nav{
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+}
+.nav-list{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #22262A;
+}
+.list-2{
+    padding: 22px 20px;
+    font-size: 20px;
+}
+.list-3{
+    margin-left: 55px;
+}
+.list-1{
+    margin-left: 410px;
+}
+.logo-1{
+    position: absolute;
+    top: 23px;
+    left: 160px;
+}
+.banner{
+    background-image: url('../images/img1.png');
+    margin-top: -8px;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+}
+.sub-banner{
+    float: right;
+    padding-right: 80px;
+}
+.banner-text{
+    padding-top: 330px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.banner-text2{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: -50px;
+}
+.ban-head{
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: -20px;
+}
+.button{
+    padding-top: 8px;
+}
+.ban-btn{
+    text-decoration: none;
+    background-color: #22262A;
+    color: white;
+    padding: 4px 25px;
+}
+.ban-btn:hover{
+    text-decoration: 2px solid #49c9e0 underline;
+}
+.btn-2{
+    margin-left: 20px;
+}
+.main-imgs{
+    position: relative;
+}
+.img-2{
+    width: 552px;
+    height: 568px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    transition: 0.4s;
+}
+.img-2:hover{
+    filter: brightness(0.6);
+    transition: 0.4s;
+}
+.img-btn{
+    position: absolute;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    top: 615px;
+    right: 466px;
+    padding: 3px 10px;
+    background-color: white;
+}
+.img-1{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.img-3{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.img-4{
+    margin-left: 20px;
+}
+.women-fshn{
+    text-align: center;
+    margin-top: 100px;
+}
+.fshn-head{
+    font-size: 20px;
+    font-weight: 700;
+}
+.fshn-cntnt{
+    font-weight: 400;
+}
+.girls-fshn{
+    display: flex;
+}
+.girl-img{
+    padding: 10px;
+}
+.g-img1{
+    margin-left: 100px;
+}
+.girl-cntnt{
+    font-weight: 600;
+    font-size: 15px;
+}
+.price{
+    color: #CF2929;
+    margin-left: 15px;
+}
+.price-1{
+    text-decoration: line-through;
+}
+.sec-5{
+    position: relative;
+}
+.sec-img1{
+    margin-left: 125px;
+    margin-top: 107px;
+}
+.sec-img{
+    position: absolute;
+    right: 135px;
+    top: 30px;
+}
+.sec-cntnt{
+    position: absolute;
+    top: 210px;
+    left: -180px;
+    font-weight: 400;
+    font-size: 15px;
+    border-bottom: 1px solid #22262A;
+    text-decoration: none;
+    color: #22262A;
+}
+.sec-img3{
+    position: absolute;
+    top: 410px;
+    right: 105px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.banner-2{
+    background-image: url('..//images/banner2.png');
+    background-size: cover;
+    height: 600px;
+    margin-top: 50px;
+}
+.ban2-head{
+    padding-top: 300px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.ban2-h{
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: -13px;
+}
+.main-btn2{
+    margin-top: -45px;
+    margin-left: 15px;
+}
+.ban2-btn{
+    text-decoration: none;
+    background-color: #22262A;
+    color: white;
+    padding: 8px 13px;
+}
+.sub-ban2{
+    margin-left: 110px;
+}
+.main-footer{
+    display: flex;
+    background-color: #F2F8FC;
+    padding-bottom: 150px
+}
+.sub-footer{
+    margin-left: 150px;
+}
+.foot-head{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.main-mail{
+    margin-left: 100px;
+}
+.field{
+    width: 450px;
+    border: none;
+    padding: 13px 15px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.mail{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.mail-btn{
+    font-size: 15px;
+    position: relative;
+    font-weight: 600;
+    right: 75px;
+    text-decoration: none;
+    color: #22262A;
+}
+.foot-cntnt{
+    font-weight: 400;
+    font-size: 15px;
+}
+.fot-loc{
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.fot-mail{
+    border-bottom: 1px solid black;
+    width: 250px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.fot-icon{
+    padding: 5px;
+    font-size: 15px;
+}
+.footer{
+    display: flex;
+    float: right;
+    margin-top: -300px;
+    margin-right: 170px;
+}
+.about{
+    padding: 0px 35px;
+}
+.about-head{
+    font-size: 20px;
+    font-weight: 600;
+}
+.info{
+    font-weight: 400;
+    font-size: 15px;
+}
+.end{
+    background-color: #E7F5F8;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 15px;
+}
